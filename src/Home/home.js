@@ -1,0 +1,1 @@
+import "./home.css"import {div} from "mdb-ui-kit/src/js/mdb/perfect-scrollbar/lib/dom";const Home =()=>{    return(        <div style={{backgroundColor:"white"}} className="container-fluid text-dark row bg-white p-2">            <h1>Kesh SMART maktabi</h1>        </div>    )}export default Home
