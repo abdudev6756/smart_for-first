@@ -1,1 +1,40 @@
-.image1{    width: 60%;    height: 60%;    margin: 0 auto;    border: 3px solid aqua;}.image1:hover{    transition: 0.5s;    transform: scale(1.2);}.img-b{    margin-top: -50px;    border-radius: 50%;    width: 100px;    height: 100px;}.pe{    font-size: 17px;}.center-img{    padding: 30px;    margin: 0 auto;}.div1:hover{    transition: 3s;    transform: scale(1);}
+.image1{
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+.image1:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+.img-b{
+    margin-top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.pe{
+    font-size: 17px;
+    padding: 10px;
+}
+.center-img{
+    padding: 30px;
+    margin: 0 auto;
+}
+.div1:hover{
+    transition: 3s;
+    transform: scale(1);
+}
+.back{
+    background: #da4453; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #da4453, #89216b); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #da4453, #89216b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.back-2{
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

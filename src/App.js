@@ -7,6 +7,7 @@ import Video from "./Smart maktabiga xo’sh kelibsiz.mp4"
 import Carousel from '../src/carousel/carousel'
 import MainSection from "./Mainection/mainSection";
 import Section2 from "./Section2/Section2";
+import Footer1 from "../src/Footer/Footer"
 
 
 
@@ -26,9 +27,12 @@ function App() {
           <Modal/>
       </div>
         <div className={'MainSection'}>
+
          <MainSection/>
         </div>
-       <Section2/>
+              <Section2/>
+
+
 
     </div>
   );
